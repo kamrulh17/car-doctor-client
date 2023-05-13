@@ -1,7 +1,11 @@
+import Banner from "./components/Banner";
+import Services from "./components/Services";
+
 const Home = () => {
     return (
-        <div>
-            Home page
+        <div className="container mx-auto">
+            <Banner />
+            <Services />
         </div>
     );
 };
